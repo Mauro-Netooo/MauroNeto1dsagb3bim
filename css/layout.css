@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Smooch';
+    src: url('../font/Smooch-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Amatic SC';
+    src: url('../font/AmaticSC-Regular.ttf') format('truetype');
+  }  
+  @font-face {
+    font-family: 'Maven Pro';
+    src: url('../font/MavenPro-VariableFont_wght.ttf') format('truetype');
+  }
+#logo {
+    border-radius: 100%;
+}
+.layout-nav {
+    background-color: #ffd980;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.font-drop {
+    color: aliceblue;
+}
+.submenu {
+    display: none;
+}
+.hover-sub:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 157px;
+    background-color: black;
+    border-radius: 7%;
+}
+.rodape {
+    background-color: #ffd980;
+    margin-top: 575px;
+    width: 100%;
+    height: 58px;
+}
+.linha-rdp {
+    background-color: #575c72;
+    
+    width: 100%;
+    height: 18px;
+}
+.txt-rdp {
+    text-align: end;
+    margin-right: 30px;
+}
+.butao {
+    margin-left: 100px;
+}
+.titulo {
+    margin-right: 300px;
+    font-family: Smooch;
+    font-size: 60px;
+}
