@@ -88,17 +88,25 @@
       </nav>
       <form>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <label for="exampleInputEmail1" class="form-label"><h5 id="email">Email</h5></label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           <div id="emailHelp" class="form-text">Nós não divulgaremos seu email </div>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <label for="exampleInputPassword1" class="form-label"><h5 id="senha">Senha</h5></label>
           <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Lembre de mim</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected id="op-drop">Tipo de Comida Favorita</option>
+            <option value="1">Clássicos</option>
+            <option value="2">Doce</option>
+            <option value="3">Salgado</option>
+            <option value="3">Caseira</option>
+            <option value="3">Sobremesa</option>
+          </select>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>

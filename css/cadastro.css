@@ -1,9 +1,31 @@
 form {
-    margin-bottom: -34.9vh;
+    margin-bottom: -30vh;
+    font-family: Maven Pro;
 }
 .mb-3 {
     width: 30vh;
 }
 form {
-    margin-left: 75vh;
+    margin-left: 80vh;
+}
+.form-select{
+    margin-left: -8.5vh;
+}
+.form-check{
+    margin-left: 7vh;
+}
+.btn-primary{
+    margin-left: 11vh;
+}
+#op-drop{
+    text-align: center;
+}
+#email{
+    margin-left: 12vh;
+}
+.form-text{
+    margin-left: 4vh;
+}
+#senha{
+    margin-left: 12vh; 
 }
