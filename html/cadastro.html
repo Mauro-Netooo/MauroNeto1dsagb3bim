@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/form.estilo.css">
-
+    <link rel="stylesheet" href="../css/cadastro.css">
+    
     <title>The Best Foods</title>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fuid">
       <nav class="navbar navbar-expand-lg layout-nav">
         <div class="container-fluid layout-nav butao">
           <a class="navbar-brand" href="../index.html"><img src="../img/batata-logo.jpg" height="130px" width="130px" id="logo"></a>
@@ -21,11 +21,11 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><button type="button" class="btn btn-dark">Home</button>
+                <a class="nav-link active" aria-current="page" href="../index.html"><button type="button" class="btn btn-dark">Home</button>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="html/cadastro.html"><button type="button" class="btn btn-dark">Cadastro</button>
+                <a class="nav-link" href="../html/cadastro.html"><button type="button" class="btn btn-dark">Cadastro</button>
                 </a>
               </li>
               <li class="nav-item dropdown">
@@ -86,37 +86,29 @@
         </div>
         <h1 class="titulo container-fluid layout-nav">The Best Foods</h1>
       </nav>
-      <fieldset>
-        <legend><h1>Formulário</h1></legend>
-    <h3>
-        <form action="" method="">
-         <label>Nome:</label><input type="text" class="sp" autofocus minlength="2" placeholder="Digite seu nome"><br>
-         <label>Email:</label><input type="email" class="sp" placeholder="Digite seu email"><br>
-         <label>Data de Nascimento:</label><input type="date"><br>
-         <label>Senha:</label><input type="password" class="sp" placeholder="Insira sua senha"><br>
-         <label>Idade:</label><input type="number" class="sp" placeholder="Insira sua idade">
-        <br>Tipo de comida favorita:</br>
-        <label for="caseira">Caseira</label><input type="radio" id="chrome" name="navegador">
-        <label for="edge">Sobremesa</label><input type="radio" id="edge" name="navegador">
-        <label for="firefox">Clássicos</label><input type="radio" id="firefox" name="navegador">
-        <label for="edge">Salgados</label><input type="radio" id="opera" name="navegador">
-        <label for="outros">Outros</label><input type="radio" id="outros" name="navegador"><br>
-        
-        </form>
-    </h3>
-</fieldset>  
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nós não divulgaremos seu email </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Lembre de mim</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
       <div class="rodape">
-<div class="linha-rdp">
+ <div class="linha-rdp">
 
-</div>
-<h3 class="txt-rdp">Criado por: マウロ</h3>
+ </div>
+ <h3 class="txt-rdp">Criado por: マウロ</h3>
       </div>
-    </div>
-
-
-
-
-
+</div>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
