@@ -1,13 +1,13 @@
 form {
-    margin-bottom: -30vh;
+    
     font-family: Maven Pro;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 .mb-3 {
     width: 30vh;
-}
-form {
-    margin-left: 80vh;
-}
+}   
 .form-select{
     margin-left: -8.5vh;
 }
@@ -28,4 +28,7 @@ form {
 }
 #senha{
     margin-left: 12vh; 
+}
+.rodape {
+    margin-top: 44vh;
 }
