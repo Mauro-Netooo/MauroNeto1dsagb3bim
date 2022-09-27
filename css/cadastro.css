@@ -16,6 +16,7 @@ form {
 }
 .btn-primary{
     margin-left: 11vh;
+    text-decoration: none;
 }
 #op-drop{
     text-align: center;
@@ -30,5 +31,6 @@ form {
     margin-left: 12vh; 
 }
 .rodape {
-    margin-top: 44vh;
+    margin-top: -34vh;
 }
+

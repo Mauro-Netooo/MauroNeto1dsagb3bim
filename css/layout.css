@@ -15,6 +15,7 @@
 }
 .layout-nav {
     background-color: #ffd980;
+   
 }
 .dropdown-menu {
     background-color: black;
@@ -38,10 +39,11 @@
     margin-top: 74vh;
     width: 100%;
     height: 6vh;
+   
 }
 .linha-rdp {
     background-color: #575c72;
-    
+    margin-top: 77.8vh;
     width: 100%;
     height: 1.8vh;
 }
@@ -59,4 +61,5 @@
 }
 body {
     background-image: linear-gradient(to right,#ffd980,#FFE56F,#FFD82B,#FFC316,#FFB31A);
+    size: 100%;
 }
