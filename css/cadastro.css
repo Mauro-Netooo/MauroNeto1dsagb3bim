@@ -6,29 +6,30 @@ form {
     margin-right: 40%;
 }
 .mb-3 {
-    width: 30vh;
+    width: 20vw;
+    margin-left: 2vw;
 }   
 .form-select{
-    margin-left: -8.5vh;
+    margin-left: -7.7vw;
 }
 .form-check{
-    margin-left: 7vh;
+    margin-left: 9vw;
 }
 .btn-primary{
-    margin-left: 11vh;
+    margin-left: 10.7vw;
     text-decoration: none;
 }
 #op-drop{
     text-align: center;
 }
 #email{
-    margin-left: 12vh;
+    margin-left: 9vw;
 }
 .form-text{
-    margin-left: 4vh;
+    margin-left: 5vw;
 }
 #senha{
-    margin-left: 12vh; 
+    margin-left: 8.7vw; 
 }
 .rodape {
     margin-top: -34vh;

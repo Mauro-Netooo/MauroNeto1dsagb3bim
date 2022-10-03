@@ -1,0 +1,25 @@
+h2 {
+    font-family: Amatic SC;
+    font-size: 8vh;
+    text-align: center;
+    margin-top: 8vh;
+    text-shadow: 0.3vh 0.3vh goldenrod;
+}
+.imgco {
+    margin-top: 0.1vh;
+    margin-right: 37vw;
+    margin-left: 37vw;
+    margin-bottom: 0vh;
+    position: relative;
+}
+.desc {
+    margin-right: 2vw;
+    margin-left: 62vw;
+    margin-top: -15vh;
+    margin-bottom: 0vh;
+    font-family: Maven Pro;
+    position: relative;
+}
+.rodape {
+    margin-top: -32.2vh;
+}

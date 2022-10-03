@@ -1,0 +1,43 @@
+.imgrc {
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+}
+.nm-rc {
+    font-family: Amatic SC;
+    font-size: 7vh;
+    text-shadow: 0.3vh 0.3vh goldenrod;
+    margin-left: 7.5vw;
+}
+#ingrid {
+    margin-left: 55vw;
+    margin-top: -100vh;
+}
+.ing {
+    margin-left: 60vw;
+    margin-top: -53vh;
+    font-family: Amatic SC;
+    font-size: 4vh;
+    text-shadow: 0.3vh 0.3vh goldenrod;
+}
+#pan {
+    margin-left: 55vw;
+    margin-top: 13vh;
+}
+.pane {
+    margin-left: 60vw;
+    margin-top: -5vh;
+    font-family: Amatic SC;
+    font-size: 4vh;
+    text-shadow: 0.3vh 0.3vh goldenrod;
+}
+.rc-ing {
+    font-family: Maven Pro;
+    margin-left: 45vw;
+}
+.rc {
+    font-family: Maven Pro;
+    margin-left: 70vh;
+}
+.rodape{
+    margin-top: -72.4vh;
+}

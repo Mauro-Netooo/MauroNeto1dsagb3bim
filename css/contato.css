@@ -5,10 +5,16 @@
     text-shadow: 0.3vh 0.3vh goldenrod;
 }
 .cts {
+    margin-left: 0vw;
+    margin-right: 0vw;
     font-family: Maven Pro;
     font-size: 5vh;
     text-shadow: 0.3vh 0.3vh goldenrod;
+    position: relative;
 }
 .rodape {
     margin-top: -57.4vh;
+}
+body {
+    position: relative;
 }
